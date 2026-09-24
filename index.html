@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>امتحان العلوم:الصف الثامن</title>
+<title>امتحان العلوم - الصف الثامن</title>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -139,7 +139,7 @@
     <div class="card-top">
       <div class="big-icon">📝</div>
       <h2>اختبار العلوم</h2>
-      <div style="color:rgba(255,255,255,.9);font-size:14px;margin-top:4px;">الصف الثامن — الفصل الأول</div>
+      <div style="color:rgba(255,255,255,.9);font-size:14px;margin-top:4px;">الصف الثامن الأساسي — الفصل الأول</div>
       <div class="unit-tag">الوحدة الثانية : الذرة و الجدول الذري</div>
     </div>
     <div class="card-body">
@@ -271,7 +271,6 @@ function setStatus(type,msg) {
 
 // ══ QUESTIONS ═════════════════════════════════════════════════════════
 const qs = [
-const qs = [
   {
     t: "ما الجسيم الذي يوجد داخل النواة ولا يحمل شحنة كهربائية؟",
     o: [
@@ -364,7 +363,7 @@ const qs = [
   }
 ];
 
-const L = ["أ", "ب", "ج"];
+const L=["أ","ب","ج"];
 let studentName="",timerInt,secs=EXAM_SECS,ans=new Array(qs.length).fill(null);
 
 function chkName(){document.getElementById("btn-start").disabled=document.getElementById("sname-in").value.trim().length<2;}
